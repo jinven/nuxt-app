@@ -19,6 +19,21 @@
             </nuxt-link>
           </li>
           <li>
+            <nuxt-link to="/hello">
+              hello
+            </nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/todos">
+              todos
+            </nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/blog">
+              blog
+            </nuxt-link>
+          </li>
+          <li>
             <nuxt-link to="/user">
               user
             </nuxt-link>
@@ -178,7 +193,7 @@ ul a{
   left: 0;
 }
 .right {
-  width: 50%;
+  width: 30%;
   position: absolute;
   top: 0;
   right: 0;
